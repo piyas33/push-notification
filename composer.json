@@ -1,0 +1,28 @@
+{
+    "name": "piyas33/push-notification",
+    "description": "This is PushNotification (HTTP v1)",
+    "require": {
+        "google/apiclient": "v2.18.0 | v2.17.0 | v2.16.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Safaetul",
+            "email": "safaetul.ahasan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "FCM\\PushNotification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FCM\\PushNotification\\PushNotificationServiceProvider"
+            ]
+        }
+    }
+
+}
