@@ -11,8 +11,8 @@ php artisan vendor:publish --tag=config --force
 `.env`
 
 ```jsx
-FCM_PROJECT_ID="blog-12345"
-FCM_JSON_PATH="/public/blog-12345-firebase-adminsdk-7hpyr-e78c047e12.json"
+FCM_PROJECT_ID="project_id"
+FCM_JSON_PATH="your_fcm_json_path"
 FCM_ENABLE_QUEUE= false
 ```
 if `FCM_ENABLE_QUEUE` is true :
